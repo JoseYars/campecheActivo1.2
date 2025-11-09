@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5991B952EBE39450057EEE1 /* CampecheActivoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5991B942EBE39450057EEE1 /* CampecheActivoApp.swift */; };
+		D5991B972EBE39450057EEE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5991B962EBE39450057EEE1 /* ContentView.swift */; };
+		D5991B992EBE39470057EEE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5991B982EBE39470057EEE1 /* Assets.xcassets */; };
+		D5991B9D2EBE39470057EEE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5991B9C2EBE39470057EEE1 /* Preview Assets.xcassets */; };
+		D5991BA42EBE3A070057EEE1 /* AgregarProcesoModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5991BA32EBE3A070057EEE1 /* AgregarProcesoModalView.swift */; };
+		D5991BA62EBE3A5A0057EEE1 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5991BA52EBE3A5A0057EEE1 /* AppColors.swift */; };
+		D5991BA82EBE3A9A0057EEE1 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5991BA72EBE3A9A0057EEE1 /* OnBoardingView.swift */; };
+		D5991BAA2EBE3AED0057EEE1 /* PerfilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5991BA92EBE3AED0057EEE1 /* PerfilView.swift */; };
+		D5991BAE2EBE3B420057EEE1 /* PremioCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5991BAD2EBE3B420057EEE1 /* PremioCardView.swift */; };
+		D5991BB02EBE3B790057EEE1 /* PremiosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5991BAF2EBE3B790057EEE1 /* PremiosView.swift */; };
+		D5991BB22EBE3BA70057EEE1 /* RetoCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5991BB12EBE3BA70057EEE1 /* RetoCardView.swift */; };
+		D5991BB42EBE3BDE0057EEE1 /* RetosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5991BB32EBE3BDE0057EEE1 /* RetosView.swift */; };
+		D5991BB62EBE3C0A0057EEE1 /* RutaCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5991BB52EBE3C0A0057EEE1 /* RutaCardView.swift */; };
+		D5991BB82EBE3C460057EEE1 /* RutaDetalleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5991BB72EBE3C460057EEE1 /* RutaDetalleView.swift */; };
+		D5991BBA2EBE3C680057EEE1 /* RutasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5991BB92EBE3C680057EEE1 /* RutasView.swift */; };
+		D5991BBC2EBE3CCF0057EEE1 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5991BBB2EBE3CCF0057EEE1 /* SplashScreenView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D5991B912EBE39450057EEE1 /* CampecheActivo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CampecheActivo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5991B942EBE39450057EEE1 /* CampecheActivoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampecheActivoApp.swift; sourceTree = "<group>"; };
+		D5991B962EBE39450057EEE1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D5991B982EBE39470057EEE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5991B9A2EBE39470057EEE1 /* CampecheActivo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CampecheActivo.entitlements; sourceTree = "<group>"; };
+		D5991B9C2EBE39470057EEE1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D5991BA32EBE3A070057EEE1 /* AgregarProcesoModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgregarProcesoModalView.swift; sourceTree = "<group>"; };
+		D5991BA52EBE3A5A0057EEE1 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		D5991BA72EBE3A9A0057EEE1 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		D5991BA92EBE3AED0057EEE1 /* PerfilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilView.swift; sourceTree = "<group>"; };
+		D5991BAD2EBE3B420057EEE1 /* PremioCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremioCardView.swift; sourceTree = "<group>"; };
+		D5991BAF2EBE3B790057EEE1 /* PremiosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiosView.swift; sourceTree = "<group>"; };
+		D5991BB12EBE3BA70057EEE1 /* RetoCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetoCardView.swift; sourceTree = "<group>"; };
+		D5991BB32EBE3BDE0057EEE1 /* RetosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetosView.swift; sourceTree = "<group>"; };
+		D5991BB52EBE3C0A0057EEE1 /* RutaCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RutaCardView.swift; sourceTree = "<group>"; };
+		D5991BB72EBE3C460057EEE1 /* RutaDetalleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RutaDetalleView.swift; sourceTree = "<group>"; };
+		D5991BB92EBE3C680057EEE1 /* RutasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RutasView.swift; sourceTree = "<group>"; };
+		D5991BBB2EBE3CCF0057EEE1 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5991B8E2EBE39450057EEE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5991B882EBE39450057EEE1 = {
+			isa = PBXGroup;
+			children = (
+				D5991B932EBE39450057EEE1 /* CampecheActivo */,
+				D5991B922EBE39450057EEE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5991B922EBE39450057EEE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5991B912EBE39450057EEE1 /* CampecheActivo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5991B932EBE39450057EEE1 /* CampecheActivo */ = {
+			isa = PBXGroup;
+			children = (
+				D5991BA52EBE3A5A0057EEE1 /* AppColors.swift */,
+				D5991BA72EBE3A9A0057EEE1 /* OnBoardingView.swift */,
+				D5991BA92EBE3AED0057EEE1 /* PerfilView.swift */,
+				D5991BAD2EBE3B420057EEE1 /* PremioCardView.swift */,
+				D5991BA32EBE3A070057EEE1 /* AgregarProcesoModalView.swift */,
+				D5991BAF2EBE3B790057EEE1 /* PremiosView.swift */,
+				D5991BB12EBE3BA70057EEE1 /* RetoCardView.swift */,
+				D5991BB32EBE3BDE0057EEE1 /* RetosView.swift */,
+				D5991BB52EBE3C0A0057EEE1 /* RutaCardView.swift */,
+				D5991BB72EBE3C460057EEE1 /* RutaDetalleView.swift */,
+				D5991BB92EBE3C680057EEE1 /* RutasView.swift */,
+				D5991BBB2EBE3CCF0057EEE1 /* SplashScreenView.swift */,
+				D5991B942EBE39450057EEE1 /* CampecheActivoApp.swift */,
+				D5991B962EBE39450057EEE1 /* ContentView.swift */,
+				D5991B982EBE39470057EEE1 /* Assets.xcassets */,
+				D5991B9A2EBE39470057EEE1 /* CampecheActivo.entitlements */,
+				D5991B9B2EBE39470057EEE1 /* Preview Content */,
+			);
+			path = CampecheActivo;
+			sourceTree = "<group>";
+		};
+		D5991B9B2EBE39470057EEE1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D5991B9C2EBE39470057EEE1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5991B902EBE39450057EEE1 /* CampecheActivo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5991BA02EBE39470057EEE1 /* Build configuration list for PBXNativeTarget "CampecheActivo" */;
+			buildPhases = (
+				D5991B8D2EBE39450057EEE1 /* Sources */,
+				D5991B8E2EBE39450057EEE1 /* Frameworks */,
+				D5991B8F2EBE39450057EEE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CampecheActivo;
+			productName = CampecheActivo;
+			productReference = D5991B912EBE39450057EEE1 /* CampecheActivo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5991B892EBE39450057EEE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D5991B902EBE39450057EEE1 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = D5991B8C2EBE39450057EEE1 /* Build configuration list for PBXProject "CampecheActivo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5991B882EBE39450057EEE1;
+			productRefGroup = D5991B922EBE39450057EEE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5991B902EBE39450057EEE1 /* CampecheActivo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5991B8F2EBE39450057EEE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5991B9D2EBE39470057EEE1 /* Preview Assets.xcassets in Resources */,
+				D5991B992EBE39470057EEE1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5991B8D2EBE39450057EEE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5991BA42EBE3A070057EEE1 /* AgregarProcesoModalView.swift in Sources */,
+				D5991BBA2EBE3C680057EEE1 /* RutasView.swift in Sources */,
+				D5991BA62EBE3A5A0057EEE1 /* AppColors.swift in Sources */,
+				D5991BB62EBE3C0A0057EEE1 /* RutaCardView.swift in Sources */,
+				D5991B972EBE39450057EEE1 /* ContentView.swift in Sources */,
+				D5991BA82EBE3A9A0057EEE1 /* OnBoardingView.swift in Sources */,
+				D5991BB42EBE3BDE0057EEE1 /* RetosView.swift in Sources */,
+				D5991BBC2EBE3CCF0057EEE1 /* SplashScreenView.swift in Sources */,
+				D5991BB22EBE3BA70057EEE1 /* RetoCardView.swift in Sources */,
+				D5991BAA2EBE3AED0057EEE1 /* PerfilView.swift in Sources */,
+				D5991BAE2EBE3B420057EEE1 /* PremioCardView.swift in Sources */,
+				D5991BB02EBE3B790057EEE1 /* PremiosView.swift in Sources */,
+				D5991BB82EBE3C460057EEE1 /* RutaDetalleView.swift in Sources */,
+				D5991B952EBE39450057EEE1 /* CampecheActivoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D5991B9E2EBE39470057EEE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5991B9F2EBE39470057EEE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D5991BA12EBE39470057EEE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CampecheActivo/CampecheActivo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CampecheActivo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Briant.CampecheActivo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5991BA22EBE39470057EEE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CampecheActivo/CampecheActivo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CampecheActivo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Briant.CampecheActivo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5991B8C2EBE39450057EEE1 /* Build configuration list for PBXProject "CampecheActivo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5991B9E2EBE39470057EEE1 /* Debug */,
+				D5991B9F2EBE39470057EEE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5991BA02EBE39470057EEE1 /* Build configuration list for PBXNativeTarget "CampecheActivo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5991BA12EBE39470057EEE1 /* Debug */,
+				D5991BA22EBE39470057EEE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5991B892EBE39450057EEE1 /* Project object */;
+}
